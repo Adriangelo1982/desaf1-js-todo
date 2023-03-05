@@ -1,0 +1,15 @@
+.header {
+    position: absolute;
+    width: 100vw;
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    background: var(--gray-700);
+}
+.header img {
+    width: 7.875rem;
+    height: 3rem;
+    margin-top: 4.5rem;
+    margin-left: 38.75rem;
+}

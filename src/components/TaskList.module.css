@@ -1,0 +1,120 @@
+.tasksArea {
+    position: relative;
+    width: 736px;
+    height: 451px;
+    margin-left: 315px; 
+    bottom: calc(-24rem / 2);  
+}
+.taskQuantity {
+    display: flex;
+    justify-content:space-between;
+    height: 50px;
+    padding-top: 30px;
+    font-size: 14px;
+}
+.taskCounterCreate {
+    display: flex;
+    background-color: var(--gray-500);
+    width: 2.0rem;
+    border-radius: 6px;
+    margin-left: 4px;
+    color: var(--white);
+    justify-content: center;
+}
+.taskCounterCompleted {
+    display: flex;
+    background-color: var(--gray-500);
+    width: 4.0rem;
+    border-radius: 6px;
+    margin-left: 4px;
+    color: var(--white);
+    justify-content: center;
+}
+.taskQuantCreate {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 5px;
+    color: var(--blue-Dark);
+}
+.taskCompleted {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 5px;
+    color: var(--purple-Dark)
+}
+.newTask {
+    display: block;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 0.75rem;
+    list-style-type: none;
+}
+.content {
+    display: flex;
+    position: relative;
+    background-color: var(--gray-500);
+    color: var(--gray-100);
+    border-radius: 8px;
+    max-width: 736px;
+    height: 72px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    align-items: center;
+    font-size: 14px;
+}
+.input {
+    width: 100%;
+    height: 5rem;
+    margin-right: 10px;
+}
+.edit {
+    position: absolute;
+    color: var(--gray-300);
+    background: none;
+    border: none;
+    right: 40px;
+}
+.edit :hover {
+    color: var(--blue-Dark);
+}
+.saved {
+    position: absolute;
+    color: var(--blue-Dark);
+    background: none;
+    border: none;
+    right: 40px;
+}
+.delete {
+    position: absolute;
+    color: var(--gray-300);
+    background: none;
+    border: none;
+    right: 5px;
+}
+.delete :hover {
+    color: var(--danger);
+}
+.empty {
+    display: block;
+    justify-content: space-between;
+    border-top: 1px solid var(--gray-300);
+    color: var(--gray-300);
+    padding-top: 50px;
+}
+.clipBoard {
+    display: flex;
+    margin-left: 340px;
+}
+.empty h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+.empty span {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+
+}
